@@ -1066,7 +1066,7 @@ body { display: -webkit-box; display: -ms-flexbox; display: flex; min-height: 10
 @media (min-width: 80em) { .wide .page__related { padding-right: 0; } }
 
 /* ========================================================================== ARCHIVE ========================================================================== */
-.archive { margin-top: 1em; margin-bottom: 2em; }
+.archive { margin-top: 0.5em; margin-bottom: 0.75em; }
 .archive p { font-size: 0.75em; }
 .archive ul { font-size: 0.75em; }
 @media (min-width: 64em) { .archive { float: right; width: calc(100% - 300px); } }
