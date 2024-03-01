@@ -554,10 +554,10 @@ function drawBoids() {
     var boidData = boids.boids
         , halfHeight = canvas.height/2
         , halfWidth = canvas.width/2
-    ctx.fillStyle = 'rgba(255,255,255,0.99)'
+    ctx.fillStyle = 'rgba(255,255,255,0.3)'
     ctx.fillRect(0, 0, canvas.width, canvas.height)
 
-    ctx.fillStyle = 'rgba(220,220,220)'
+    ctx.fillStyle = 'rgba(180,180,180)' // Lower for darker boids
     for (var i = 0, l = boidData.length, x, y; i < l; i += 1) {
         x = boidData[i][0]; y = boidData[i][1]
         // wrap around the screen
