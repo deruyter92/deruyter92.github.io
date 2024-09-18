@@ -1181,7 +1181,7 @@ body { display: -webkit-box; display: -ms-flexbox; display: flex; min-height: 10
 .sidebar > * { margin-top: 1em; margin-bottom: 1em; }
 .sidebar h2, .sidebar h3, .sidebar h4, .sidebar h5, .sidebar h6 { margin-bottom: 0; font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif; }
 .sidebar p, .sidebar li { font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif; font-size: 0.75em; line-height: 1.5; }
-.sidebar img { width: 100%; }
+.sidebar img { width: 70%; }
 .sidebar img.emoji { width: 20px; height: 20px; }
 
 .sidebar__right { margin-bottom: 1em; }
@@ -1197,7 +1197,7 @@ body { display: -webkit-box; display: -ms-flexbox; display: flex; min-height: 10
 /* Author profile and links ========================================================================== */
 .author__avatar { display: table-cell; vertical-align: middle; width: 80px; height: 80px; }
 @media (min-width: 56.25em) { .author__avatar { display: block; width: auto; height: auto; } }
-.author__avatar img { max-width: 200px; }
+.author__avatar img { max-width: 200px; border-radius: 10%; }
 @media (min-width: 56.25em) { .author__avatar img { padding-top: 5px; } }
 
 .author__content { display: table-cell; vertical-align: top; padding-left: 15px; padding-right: 25px; line-height: 1; }
